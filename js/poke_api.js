@@ -24,12 +24,9 @@ pokeApi.getPokemonDetail = (pokemon) => {
         .then(convertPokeApiDetailToPokemon)
 }
 
-//vai retornar toda a manipulação do fetch
-// pokeApi: função com 2 parâmetros
+
 pokeApi.getPokemons = (offset = 0, limit = 10) => {
-    //variáveis de inicio de dados e quantidade por página
-    /* const offset = 0;
-    const limit = 10; */
+   
     const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`
    
     return fetch(url)
@@ -39,5 +36,4 @@ pokeApi.getPokemons = (offset = 0, limit = 10) => {
         .then((detailRequests) => Promise.all(detailRequests))
         .then((pokemonsDetails) => pokemonsDetails)
 }
-//        .catch((error) => console.error(error))
 
