@@ -792,4 +792,7 @@ loadMoreButton.addEventListener('click', () => {
 
 _____________
 
-Inspiração: [GitHub - Erica Lima](https://github.com/erica-l-s/js-developer-pokedex)
+Inspirações: 
+
+- [GitHub - Instrutor Renan Paula](https://github.com/digitalinnovationone/js-developer-pokedex)
+- [GitHub - Aluna DIO Erica Lima](https://github.com/erica-l-s/js-developer-pokedex)

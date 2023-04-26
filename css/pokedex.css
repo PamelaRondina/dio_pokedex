@@ -78,7 +78,7 @@
 }
 
 .pokemon .number {
-    color: #000;
+    color: #212020;
     opacity: .3;
     text-align: right;
     font-weight: bold;
@@ -143,7 +143,7 @@
     cursor: pointer;
 }
 
-
+/* 
 #popup{
     position: fixed;
     top: 0;
@@ -257,7 +257,7 @@
     padding-left: 1rem;
     border-radius: 5px;
     
-}
+} */
 
 
 @media screen and (min-width: 380px){
